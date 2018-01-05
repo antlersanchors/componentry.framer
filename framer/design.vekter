@@ -154,9 +154,7 @@
                 "top" : 17,
                 "visible" : true,
                 "width" : 286,
-                "widthFactor" : null,
-                "x" : 22,
-                "y" : 120
+                "widthFactor" : null
               }
             ],
             "clip" : false,
@@ -320,7 +318,7 @@
         "id" : "Fh9sBTlrK",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : 50,
+        "left" : 10,
         "locked" : false,
         "name" : "app",
         "opacity" : 1,
@@ -338,7 +336,7 @@
         "saturateEnabled" : 0,
         "sepia" : 0,
         "sepiaEnabled" : 0,
-        "targetName" : null,
+        "targetName" : "app",
         "top" : 0,
         "visible" : true,
         "width" : 411,

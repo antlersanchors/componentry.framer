@@ -8,6 +8,7 @@ class SuperCard extends Layer
 		options.width = @template.width
 		options.height = @template.height
 		options.backgroundColor = @template.backgroundColor
+		this.z = 1
 
 		@title = new TextLayer
 			parent: @
@@ -15,7 +16,7 @@ class SuperCard extends Layer
 			font: title.font
 			color: title.color
 			text: options.cardText
-			
+
 dogeCard = new SuperCard
 	x: 10
 	y: 500
